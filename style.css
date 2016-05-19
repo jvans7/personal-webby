@@ -1,0 +1,104 @@
+h1 {
+  font-weight: 800;
+  font-size:6em;
+}
+p {
+  font-size:18px;
+}
+.header-image {
+  background: url("http://static1.squarespace.com/static/55094a55e4b05ef9ded4b5f5/t/553c2f24e4b0bd2bbd3bb86d/1430007602860/Stock+Wooden+Table+with+Laptop+Coffee.jpg?format=1500w") repeat center center fixed;
+}
+.header {
+  padding-top:20%;
+  padding-bottom:25%;
+  color:grey;
+  text-shadow: 2px 2px 2px black;
+  text-align:center;
+}
+.info-background {
+  background: #fff;
+}
+.info-background img{
+  border-radius: 50%;
+  margin: 60px 40px;
+}
+.text {
+  margin:2%;
+  color: #555F61;
+  font-family:Open-Sans;
+}
+.aboutme, .show, .contact p{
+  	font-family: Tangerine, serif;
+  font-size: 64px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.portfolio {
+  background: url("http://wallpapercave.com/wp/ZchCfV1.jpg") no-repeat center center;
+  background-size:cover;
+  padding-bottom:30%;
+  padding-top:30px;
+  
+
+}
+
+.show {
+
+  font-size:86px;
+  text-align:center;
+  padding-bottom:50px;
+  padding-top:10px;
+  
+}
+
+
+.well {
+  background:transparent;
+  border:none;
+  padding:15px;
+}
+.well:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: black;
+}
+
+.social-icon {
+  color:black;
+  padding:2%;
+}
+
+.fa-facebook-square:hover {
+  color: #0077b5;
+}
+
+.fa-github:hover {
+  color: #313335;
+}
+
+.fa-linkedin:hover {
+  color:#0077b5;
+}
+
+.fa-fire:hover {
+  color:grey;
+}
+
+.fa-envelope:hover {
+  color: #ea4335;
+}
+
+.footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color:grey;
+  text-align:center;
+  color:white;
+}
+.footer a {
+  color:red;
+}
