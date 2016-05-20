@@ -34,7 +34,11 @@ p {
   margin:2%;
   color: #555F61;
   font-family:Open-Sans;
+  padding-bottom:10%;
+  margin:auto;
+  padding-top:5%;
 }
+
 .aboutme, .show, .contact p{
   	font-family: Tangerine, serif;
   font-size: 64px;
