@@ -6,22 +6,29 @@ p {
   font-size:18px;
 }
 .header-image {
-  background: url("http://static1.squarespace.com/static/55094a55e4b05ef9ded4b5f5/t/553c2f24e4b0bd2bbd3bb86d/1430007602860/Stock+Wooden+Table+with+Laptop+Coffee.jpg?format=1500w") repeat center center fixed;
-}
-.header {
-  padding-top:20%;
-  padding-bottom:25%;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(http://static1.squarespace.com/static/55094a55e4b05ef9ded4b5f5/t/553c2f24e4b0bd2bbd3bb86d/1430007602860/Stock+Wooden+Table+with+Laptop+Coffee.jpg?format=1500w);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(http://static1.squarespace.com/static/55094a55e4b05ef9ded4b5f5/t/553c2f24e4b0bd2bbd3bb86d/1430007602860/Stock+Wooden+Table+with+Laptop+Coffee.jpg?format=1500w);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  padding-top:5%;
+  padding-bottom:30%;
   color:grey;
   text-shadow: 2px 2px 2px black;
   text-align:center;
 }
+
 .info-background {
   background: #fff;
+  padding-top: 2%;
 }
+
 .info-background img{
   border-radius: 50%;
   margin: 60px 40px;
 }
+
 .text {
   margin:2%;
   color: #555F61;
@@ -36,10 +43,12 @@ p {
 .portfolio {
   background: url("http://wallpapercave.com/wp/ZchCfV1.jpg") no-repeat center center;
   background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  height:auto;
+  max-width:100%;
   padding-bottom:30%;
   padding-top:30px;
-  
-
 }
 
 .show {

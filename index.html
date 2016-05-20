@@ -3,29 +3,27 @@
 <head>
 
 <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 <link rel="stylesheet" type="text/css" href="style.css">
 
-
 <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans'>
 
 <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
+ href="https://fonts.googleapis.com/css?family=Tangerine">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-	<title>Lets go </title>
+	<title>Webby </title>
 </head>
 <body>
-  <nav class ="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class ="navbar navbar-default navbar-fixed-top">
   <div class="container">
           <!-- Navbar Header -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -33,13 +31,21 @@
       <a class="navbar-brand" href="#">Jevaughn Vance</a>
     </div>
           <!-- END Navbar Header -->
-      <!-- List out the nav links, will be toggled if necessary -->
-      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="#about"><i class="fa fa-info-circle"></i>About</a></li>
-          <li><a href="#portfolio"><i class="fa fa-folder"></i>Portfolio</a></li>
-          <li><a href="#contact"><i class="fa fa-at"></i>Contact</a></li>
+    
+      <div class="collapse navbar-collapse navHeaderCollapse">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">
+          	<i class="fa fa-home"></i>Home</a></li>
+
+          <li><a href="#about">
+          	<i class="fa fa-info-circle"></i>About</a></li>
+
+          <li><a href="#portfolio">
+          	<i class="fa fa-folder"></i>Portfolio</a></li>
+
+          <li><a href="#contact">
+          <i class="fa fa-at"></i>Contact</a></li>
         </ul>
     </div>
   </div>
@@ -48,9 +54,10 @@
 
  <!-- Home -->
 <div class="header-image" id="home">
-  <div class="header container">
+  <div class="container">
     <h2>Hi I'm</h2>
-    <h1>Jevaughn Vance</h1>
+    <h1 class="hidden-xs">Jevaughn Vance</h1>
+    <h2 class="visible-xs slightly-bigger-font"></h2>
     <hr>
     <h3>Web Developer</h3>
   </div>
@@ -61,13 +68,13 @@
 <div class="info-background" id="about">
   <div class="container-fluid">
     <div class="row">
-      <div class= "col-xs-4">
-      <img src = "https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/10437778_10152486192829217_3316310050075271246_n.jpg?oh=9d7fa40a7feb857a302b7c10ff6047d5&oe=57D887A9" height="300" width="250">
+      <div class= "col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0">
+      <img src = "https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/10437778_10152486192829217_3316310050075271246_n.jpg?oh=9d7fa40a7feb857a302b7c10ff6047d5&oe=57D887A9" class="img-responsive" height="300" width="250">
       </div>
       <h2 class="aboutme">About Me</h2>
       <div class="text">
       <p>Hi I'm Jevaughn Vance a Front End Web Developer based in the New York/New Jersey Area.</p>
-      <p>I have a passion for bring ideas to life, solving problems and constantly learning and pefecting my craft.</p>
+      <p>I have a passion for bring ideas to life, solving problems and constantly learning and perfecting my craft.</p>
         <p><strong>Skillset:</strong></p>
       <p>HTML5, CSS3, JavaScript, JQuery, Bootstrap, Angular JS.</p>
         <p>When I'm not developing I'm playing or watching Football (Soccer). Huge Real Madrid fan "Hala Madrid" </p>
@@ -83,39 +90,39 @@
   <div class="container">
     <div class="row">
       <a href="https://codepen.io/jvans7/pen/aNaMYJ" target="_blank">
-        <div class="col-md-4 well">
+        <div class="col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0 well">
         <img src="https://sportingsoccer.files.wordpress.com/2011/09/20051130-ronaldinho1.jpg" class="img-responsive"></img>
-      <p style="color:blue" class="text-center">Tribute Page</p>
+      <p style="color:red" class="text-center">Tribute Page</p>
         </div>
       
       <a href="#" target="#">
-        <div class="col-md-4 well">
+        <div class="col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0 well">
         <img src="http://ddd3.ru/assets/img/portfolio/1.jpg" class="img-responsive"></img>
-      <p style="color:blue" class="text-center">Project 2</p>
+      <p style="color:red" class="text-center">Project 2</p>
         </div>
       
       <a href="#" target="#">
-        <div class="col-md-4 well">
+        <div class="col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0 well">
         <img src="http://ddd3.ru/assets/img/portfolio/1.jpg" class="img-responsive"></img>
-      <p style="color:blue" class="text-center">Project 3</p>
+      <p style="color:red" class="text-center">Project 3</p>
         </div>
       
       <a href="#" target="#">
-        <div class="col-md-4 well">
+        <div class="col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0 well">
         <img src="http://ddd3.ru/assets/img/portfolio/1.jpg" class="img-responsive"></img>
-      <p style="color:blue" class="text-center">Project 4</p>
+      <p style="color:red" class="text-center">Project 4</p>
         </div>
       
       <a href="#" target="#">
-        <div class="col-md-4 well">
+        <div class="col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0 well">
         <img src="http://ddd3.ru/assets/img/portfolio/1.jpg" class="img-responsive"></img>
-      <p style="color:blue" class="text-center">Project 5</p>
+      <p style="color:red" class="text-center">Project 5</p>
         </div>
       
       <a href="#" target="#">
-        <div class="col-md-4 well">
+        <div class="col-sm-5 .col-sm-offset-2 col-md-4 col-md-offset-0 well">
         <img src="http://ddd3.ru/assets/img/portfolio/1.jpg" class="img-responsive"></img>
-        <p style="color:blue" class="text-center">Project 6</p></a>
+        <p style="color:red" class="text-center">Project 6</p></a>
         </div>
     </div>
     </div>
@@ -149,13 +156,9 @@
 </div>
    
 
-
-
-
-
-
-
-
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src="js/index.js"></script>
 
 
 </body>
