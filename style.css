@@ -45,6 +45,10 @@ p {
   text-shadow: 4px 4px 4px #aaa;
 }
 
+.text p {
+  font-size: 20px;
+}
+
 .portfolio {
   background: url("http://wallpapercave.com/wp/ZchCfV1.jpg") no-repeat center center;
   background-size:cover;
