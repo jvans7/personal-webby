@@ -27,7 +27,8 @@ p {
 
 .info-background img{
   border-radius: 50%;
-  margin: 60px 40px;
+  margin: 60px 20px;
+  height: 400px;
 }
 
 .text {
@@ -35,7 +36,7 @@ p {
   color: #555F61;
   font-family:Open-Sans;
   padding-bottom:10%;
-  margin:auto;
+  margin: 20px auto;
   padding-top:5%;
 }
 
@@ -58,6 +59,8 @@ p {
   max-width:100%;
   padding-bottom:30%;
   padding-top:30px;
+  
+
 }
 
 .show {
